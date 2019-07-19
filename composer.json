@@ -1,0 +1,13 @@
+{
+    "name": "mjm/fractal-response",
+    "description": "Bind league/fractal to the Illuminate response.",
+    "autoload": {
+        "psr-4": {
+            "mjm/fractal-response": "src"
+        }
+    },
+    "suggest": {
+        "league/fractal": "The base component for transforming data.",
+        "illuminate/support": "The Illuminate Support component for the Service Provider."
+    }
+}
