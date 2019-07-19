@@ -3,8 +3,19 @@
     "description": "Bind league/fractal to the Illuminate response.",
     "autoload": {
         "psr-4": {
-            "mjm/fractal-response": "src"
+            "MJM\\FractalResponse\\": "src"
         }
+    },
+    "extra":{
+        "laravel": {
+            "providers": [
+                "MJM\\FractalResponse\\FractalResponseServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "league/fractal": "^0.18.0",
+        "illuminate/support": "^5.8"
     },
     "suggest": {
         "league/fractal": "The base component for transforming data.",
